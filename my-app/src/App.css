@@ -1,0 +1,186 @@
+/* TODO: gray out on rescale */
+
+@font-face {
+  font-family: nanum;
+  src: url(nanum.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: url(RobotHeart3.jpg);
+  background-position: right 0px top;
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+}
+
+h2 {
+  line-height: 40px;
+}
+
+p {
+  line-height: 27px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  color: white;
+  background-color: #096481;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  border: none;
+  font-family: nanum;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #2898bd;
+
+}
+
+.App{
+  overflow: hidden;
+}
+
+.Header {
+  color: white;
+  font-family: nanum;
+  height: 65vh;
+  width: 100vw;
+}
+
+.Body {
+  color: black;
+  font-family: nanum;
+  text-align: center;
+  margin-top: 30px;
+  width: 750px;
+  margin: auto;
+}
+
+#table {
+  margin: auto; 
+  /* border: solid 2px black; */
+  padding: 5px;
+  margin: 10px;
+  padding-left: 30px;
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#table div {
+  align-items: center;
+}
+
+#table p {
+  margin-left: 10px;
+}
+
+#Navbar{
+  color: white;
+  font-family: nanum;
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+
+#Navbar a {
+  margin-right: 5vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+}
+
+#Navbar a:hover {
+  text-decoration: underline;
+}
+
+.Intro {
+  margin-left: 5vw;
+  margin-top: 30vh;
+  height: 100vw;
+  overflow: hidden;
+  width: 600px;
+}
+
+.Intro p {
+  border-left: 5px solid white;
+  padding-left: 15px;
+}
+
+.article {
+  border: solid 2px black;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.article:hover {
+  background-color: #E8E8E8;
+}
+
+#first {
+  margin-left: 50px;
+}
+
+#fad {
+  display: inline;
+  text-decoration: underline;
+  color: #096481;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.video {
+  border: solid 2px black;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  margin: 15px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-family: nanum;
+  text-align: center;
+  padding: 30px;
+}
+
+#pfp {
+  width: 120px;
+  display: inline;
+  margin-right: 30px;
+}
