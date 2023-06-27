@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   const getData = async () => {
-    let response = await axios.get("http://localhost:3000/");
+    let response = await axios.get("https://website-nodejs-olive.vercel.app/");
     console.log("response: ", response);
     setArticles(response.data.articles);
     setTable(response.data.cited_by.table);
