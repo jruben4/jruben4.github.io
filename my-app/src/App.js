@@ -69,9 +69,6 @@ function App() {
   </div>);
   }
 
-  // links to the videos
-  // socials for the links
-  // under research: faculty collaborative database link (in email)
   return (
     <div className="App">
       <div id="Navbar">
@@ -89,15 +86,18 @@ function App() {
             <h2 style={{flexDirection: "column"}}>Cardiologist, Electrophysiologist, 
     Associate Professor</h2>
           </div>
-          <p>Academic Electrophysiologist focusing on patient-centric management of
-            cardiac arrhythmias. Specializing in treatment of atrial fibrillation utilizing modern
-            catheter and hybrid ablation techniques. Implantation and management of pacemakers,
-            implantable defibrillators, cardiac resynchronization devices, leadless pacemakers.
-          </p>
           <p>Director, Cardiac MRI</p>
           <p>Director, Electrophysiology Fellowship</p>
-          <p>Vice-Chair, Section of Electrophysiology
+          <p>Vice-Chair, Section of Electrophysiology</p>
+
+          <p>Academic Electrophysiologist focusing on patient-centric management of
+            cardiac arrhythmias. Located in Milwaukee, Wisconsin. Specializing in treatment of atrial fibrillation utilizing modern
+            catheter and hybrid ablation techniques. Implantation and management of pacemakers,
+            implantable defibrillators, cardiac resynchronization devices, leadless pacemakers.
+            Performing and interpretation of cardiac MRI, including stress CMR and MRI in
+            patients with pacemakers.
           </p>
+
         </div>
       </div>
       <div className="Body">
@@ -105,13 +105,19 @@ function App() {
         <h4 style={{display: "inline", marginRight: "10px"}}>Find a doctor site:</h4>
         <a href="https://www.froedtert.com/doctors/jason-rubenstein-1063603975" id="fad">Jason C. Rubenstein, MD, FACC, FHRS</a>
         <p>Practice locations include Froedtert Hospital and Froedtert Menomonee Falls Hospital.</p> 
-        <p>Welcoming referrals and second opinion requests, in-person or virtual</p>
-        <p>Click below to request an appointment
-        </p>
-            <br></br>
+        <p>Welcoming referrals and second opinion requests, in-person or virtual.</p>
+        <p>Click to request an appointment:</p>
+          <p>
           <a href="https://www.froedtert.com/appointment/request?clinic_or_provider_or_specialty_if_any_=Jason%20C%20Rubenstein%20MD-FACC-FHRS" target="_blank"><button>Book an Appointment</button></a>
+          </p>
+
           <h2 id="research" style={{marginTop: "70px"}}>Research</h2>
+          <a href="https://fcd.mcw.edu/?faculty/view/name/Jason_C._Rubenstein_MD/id/3697" target="_blank">Faculity collaborative database</a>
+
+          <br></br>
+          <br></br>
           <h3>Statistics</h3>
+          
           <BarChart width={730} height={250} data={graphData}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="year" />
