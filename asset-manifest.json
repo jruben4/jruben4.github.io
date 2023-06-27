@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.85bb43d4.css",
-    "main.js": "/react-gh-pages/static/js/main.d5152b33.js",
-    "static/js/787.28cb0dcd.chunk.js": "/react-gh-pages/static/js/787.28cb0dcd.chunk.js",
-    "static/media/nanum.ttf": "/react-gh-pages/static/media/nanum.01893c39cd1a403ef0a5.ttf",
-    "static/media/RobotHeart4.jpg": "/react-gh-pages/static/media/RobotHeart4.328604269e3f57c2404c.jpg",
-    "static/media/twitter.png": "/react-gh-pages/static/media/twitter.b741d20d98d2df75552e.png",
-    "static/media/pfp.png": "/react-gh-pages/static/media/pfp.e1bf35ef27f431de5887.png",
-    "static/media/navimg.png": "/react-gh-pages/static/media/navimg.b0a7ea084343751dd4ed.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.85bb43d4.css.map": "/react-gh-pages/static/css/main.85bb43d4.css.map",
-    "main.d5152b33.js.map": "/react-gh-pages/static/js/main.d5152b33.js.map",
-    "787.28cb0dcd.chunk.js.map": "/react-gh-pages/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.a0961698.css",
+    "main.js": "/static/js/main.624376cf.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/nanum.ttf": "/static/media/nanum.01893c39cd1a403ef0a5.ttf",
+    "static/media/RobotHeart4.jpg": "/static/media/RobotHeart4.328604269e3f57c2404c.jpg",
+    "static/media/twitter.png": "/static/media/twitter.b741d20d98d2df75552e.png",
+    "static/media/pfp.png": "/static/media/pfp.e1bf35ef27f431de5887.png",
+    "static/media/navimg.png": "/static/media/navimg.b0a7ea084343751dd4ed.png",
+    "index.html": "/index.html",
+    "main.a0961698.css.map": "/static/css/main.a0961698.css.map",
+    "main.624376cf.js.map": "/static/js/main.624376cf.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85bb43d4.css",
-    "static/js/main.d5152b33.js"
+    "static/css/main.a0961698.css",
+    "static/js/main.624376cf.js"
   ]
 }
