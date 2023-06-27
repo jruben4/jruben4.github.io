@@ -85,40 +85,29 @@ function App() {
         <div className="Intro">
         <div style={{display: "flex", flexDirection: "row"}}>
           <img src={pfp} id="pfp"></img>
-            <h1 style={{flexDirection: "column"}}>Dr. Jason C. Rubenstein</h1>
+            <h1 style={{flexDirection: "column"}}>Dr. Jason Rubenstein, MD, FACC, FHRS</h1>
             <h2 style={{flexDirection: "column"}}>Cardiologist, Electrophysiologist, 
     Associate Professor</h2>
           </div>
-          <p>Lorem Ipsum is simply dummy text of the printing 
-            and typesetting industry. Lorem Ipsum has been the 
-            industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It has 
-            survived not only five centuries, but also the leap 
-            into electronic typesetting, remaining essentially 
-            unchanged. It was popularised in the 1960s with the 
-            release of Letraset sheets containing Lorem Ipsum 
-            passages, and more recently with desktop publishing 
-            software like Aldus PageMaker including versions of 
-            Lorem Ipsum.</p>
+          <p>Academic Electrophysiologist focusing on patient-centric management of
+            cardiac arrhythmias. Specializing in treatment of atrial fibrillation utilizing modern
+            catheter and hybrid ablation techniques. Implantation and management of pacemakers,
+            implantable defibrillators, cardiac resynchronization devices, leadless pacemakers.
+          </p>
+          <p>Director, Cardiac MRI</p>
+          <p>Director, Electrophysiology Fellowship</p>
+          <p>Vice-Chair, Section of Electrophysiology
+          </p>
         </div>
       </div>
       <div className="Body">
         <h2 id="patientCare">Patient care </h2>
         <h4 style={{display: "inline", marginRight: "10px"}}>Find a doctor site:</h4>
         <a href="https://www.froedtert.com/doctors/jason-rubenstein-1063603975" id="fad">Jason C. Rubenstein, MD, FACC, FHRS</a>
-        <p>Lorem Ipsum is simply dummy text of the printing 
-            and typesetting industry. Lorem Ipsum has been the 
-            industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It has 
-            survived not only five centuries, but also the leap 
-            into electronic typesetting, remaining essentially 
-            unchanged. It was popularised in the 1960s with the 
-            release of Letraset sheets containing Lorem Ipsum 
-            passages, and more recently with desktop publishing 
-            software like Aldus PageMaker including versions of 
-            Lorem Ipsum.</p>
+        <p>Practice locations include Froedtert Hospital and Froedtert Menomonee Falls Hospital.</p> 
+        <p>Welcoming referrals and second opion requests, in-person or virtual</p>
+        <p>Click below to request an appointment
+        </p>
             <br></br>
           <a href="https://www.froedtert.com/appointment/request?clinic_or_provider_or_specialty_if_any_=Jason%20C%20Rubenstein%20MD-FACC-FHRS" target="_blank"><button>Book an Appointment</button></a>
           <h2 id="research" style={{marginTop: "70px"}}>Research</h2>
