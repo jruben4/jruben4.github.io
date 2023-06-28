@@ -134,28 +134,62 @@ function App() {
           <div class='row'>
             <div class='column'>
               <div className="video">
-                <h3>Dr. Jason Rubenstein, cardiologist, electrophysiologist</h3>
-                <p>Jason Rubenstein, MD, is a cardiologist and electrophysiologist with Froedtert & the Medical College of Wisconsin health network. 
-                  Dr. Rubenstein sees patients at Froedtert Hospital in Milwaukee and Froedtert Menomonee Falls Hospital in Menomonee Falls, Wis.</p>
+                <h3>About Dr. Jason Rubenstein, cardiologist, electrophysiologist</h3>
+                <p></p>
                   <a href="https://www.youtube.com/watch?v=l1WAY6dEsR4&t=1s" target="_blank"><button>Watch Video</button></a>
               </div>
               <div className="video">
-                <h3>What are the different types of ablation treatment? (Jason Rubenstein, MD)</h3>
-                <p>Jason Rubenstein, MD, Medical College of Wisconsin electrophysiologist, describes the different types of ablation and how they are used to treat arrhythmia, 
-                  or irregular heartbeat, at Froedtert & The Medical College of Wisconsin</p>
+                <h3>What are the different types of ablation treatment?</h3>
+                <p>A review of the different types of ablation and how they are used to treat arrhythmia, 
+                  or irregular heartbeat</p>
                 <a href="https://www.youtube.com/watch?v=X_T3NZmARvs&pp=ygUQamFzb24gcnViZW5zdGVpbg%3D%3D" target="_blank"><button>Watch Video</button></a>
+              </div>
+              <div className="video">
+                <h3>Should relatives of arrhythmia patients be tested?</h3>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=apK4NSaW9aM" target="_blank"><button>Watch Video</button></a>
+              </div>
+              <div className="video">
+                <h3>What type of equipment and tests are used to detect arrhythmia?</h3>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=EDlHSK5t2aI" target="_blank"><button>Watch Video</button></a>
+              </div>
+              <div className="video">
+                <h3>When is a defibrillator used for treatment and how is it implanted?</h3>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=RbPs__riA1M" target="_blank"><button>Watch Video</button></a>
+              </div>
+              <div className="video">
+                <h3>Can an arrhythmia ever be cured?</h3>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=YQ5nmoYtYvo" target="_blank"><button>Watch Video</button></a>
               </div>
             </div>
             <div class='column'>
               <div className="video">
-                <h3>Once an arrhythmia is treated, how often will it reoccur? (Jason Rubenstein, MD, FACC)</h3>
-                <p>Jason Rubenstein, MD, Medical College of Wisconsin electrophysiologist, discusses the reoccurence rate for arrhythmia based on the treatment method. Dr. Rubenstein is part of the Arrhythmia Program team at Froedtert & The Medical College of Wisconsin</p>
+                <h3>Once an arrhythmia is treated, how often will it reoccur? </h3>
+                <p>Discussion of the reccurence rate for arrhythmia based on the treatment method.</p>
                 <a href="https://www.youtube.com/watch?v=nVPKCxhBlrE" target="_blank"><button>Watch Video</button></a>
               </div>
               <div className="video">
-                <h3>What is bradycardia? (Jason Rubenstein, MD)</h3>
-                <p>Jason Rubenstein, MD, Medical College of Wisconsin electrophysiologist, discusses the symptoms and causes of bradycardia. He also describes bradycardia treatment. Dr. Rubenstein is part of the Arrhythmia Program team at Froedtert & The Medical College of Wisconsin. </p>
+                <h3>What is bradycardia?</h3>
+                <p>Discussion of the symptoms, causes, and treatment of bradycardia.</p>
                 <a href="https://www.youtube.com/watch?v=YITcMk3xmJw" target="_blank"><button>Watch Video</button></a>
+              </div>
+              <div className="video">
+                <h3>What is an electrophysiology study (EP study)?</h3>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=3jhYppL34oE" target="_blank"><button>Watch Video</button></a>
+              </div>
+              <div className="video">
+                <h3>What are the various methods for treating arrhythmia?</h3>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=vd0DcbXJmkU" target="_blank"><button>Watch Video</button></a>
+              </div>
+              <div className="video">
+                <h3>Are there clinical trials to improve arrhythmia diagnosis and treatment?</h3>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=3xtbVd8YOxU" target="_blank"><button>Watch Video</button></a>
               </div>
             </div>
           </div>
