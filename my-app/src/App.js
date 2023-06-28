@@ -43,7 +43,7 @@ function App() {
     return (<div className="articles">
       {articles.map((article,index)=>{
         return (<div className="article">
-          <a href={article.link}>
+          <a href={article.link} target="_blank">
             <h4>{article.title}</h4>
             <p>{article.publication}</p>
           </a>
@@ -81,7 +81,7 @@ function App() {
       <div className="Header">
         <div className="Intro">
         <div style={{display: "flex", flexDirection: "row"}}>
-          <img src={pfp} id="pfp"></img>
+          <img src={pfp} id="pfp" width="316" height="160"></img>
             <h1 style={{flexDirection: "column"}}>Dr. Jason Rubenstein, MD, FACC, FHRS</h1>
             <h2 style={{flexDirection: "column"}}>Cardiologist, Electrophysiologist, 
     Associate Professor</h2>
@@ -103,7 +103,7 @@ function App() {
       <div className="Body">
         <h2 id="patientCare">Patient care </h2>
         <h4 style={{display: "inline", marginRight: "10px"}}>Find a doctor site:</h4>
-        <a href="https://www.froedtert.com/doctors/jason-rubenstein-1063603975" id="fad">Jason C. Rubenstein, MD, FACC, FHRS</a>
+        <a href="https://www.froedtert.com/doctors/jason-rubenstein-1063603975" className="fad">Jason C. Rubenstein, MD, FACC, FHRS</a>
         <p>Practice locations include Froedtert Hospital and Froedtert Menomonee Falls Hospital.</p> 
         <p>Welcoming referrals and second opinion requests, in-person or virtual.</p>
         <p>Click to request an appointment:</p>
@@ -112,7 +112,7 @@ function App() {
           </p>
 
           <h2 id="research" style={{marginTop: "70px"}}>Research</h2>
-          <a href="https://fcd.mcw.edu/?faculty/view/name/Jason_C._Rubenstein_MD/id/3697" target="_blank">Faculity collaborative database</a>
+          <a href="https://fcd.mcw.edu/?faculty/view/name/Jason_C._Rubenstein_MD/id/3697" target="_blank" className="fad">Faculity collaborative database</a>
 
           <br></br>
           <br></br>

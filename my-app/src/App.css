@@ -133,7 +133,7 @@ button:hover {
   margin-left: 50px;
 }
 
-#fad {
+.fad {
   display: inline;
   text-decoration: underline;
   color: #096481;
