@@ -104,7 +104,11 @@ function App() {
         <h2 id="patientCare">Patient care </h2>
         <h4 style={{display: "inline", marginRight: "10px"}}>Find a doctor site:</h4>
         <a href="https://www.froedtert.com/doctors/jason-rubenstein-1063603975" target="_blank" className="fad">Jason C. Rubenstein, MD, FACC, FHRS</a>
-        <p>Practice locations include Froedtert Hospital and Froedtert Menomonee Falls Hospital.</p> 
+
+        <p>Practice locations include <a href="https://www.froedtert.com/locations/hospital/froedtert-hospital" target="_blank" className="fad">
+          Froedtert Hospital</a> and <a href="https://www.froedtert.com/locations/hospital/menomonee-falls-hospital" target="_blank" className="fad">
+          Froedtert Menomonee Falls Hospital</a>.</p> 
+
         <p>Welcoming referrals and second opinion requests, in-person or virtual.</p>
         <p>Click to request an appointment:</p>
           <p>
