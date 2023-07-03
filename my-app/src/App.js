@@ -13,6 +13,7 @@ function App() {
   const [ articles, setArticles ] = useState("");
   const [ table, setTable ] = useState("");
   const [ graphData, setGraphData ] = useState(null);
+  const [ seeAll, setSeeAll ] = useState(false);
 
   useEffect(() => {
     getData();
@@ -40,7 +41,8 @@ function App() {
 
   // idea: cut off at a certain point and have "display more" button
   const displayArticles = () => {
-    return (<div className="articles">
+    if(seeAll){
+      return (<div className="articles">
       {articles.map((article,index)=>{
         return (<div className="article">
           <a href={article.link} target="_blank">
@@ -50,6 +52,19 @@ function App() {
         </div>)
       })}
     </div>);
+    }
+    else{
+      return (<div className="articles">
+      {articles.slice(0, 5).map((article,index)=>{
+        return (<div className="article">
+          <a href={article.link} target="_blank">
+            <h4>{article.title}</h4>
+            <p>{article.publication}</p>
+          </a>
+        </div>)
+      })}
+      </div>);
+    }
   }
 
   const displayTable = () => {
@@ -69,6 +84,10 @@ function App() {
   </div>);
   }
 
+  const all = () => {
+    setSeeAll(!seeAll);
+  }
+
   return (
     <div className="App">
       <div id="Navbar">
@@ -80,15 +99,15 @@ function App() {
       </div>
       <div className="Header">
         <div className="Intro">
-        <div style={{display: "flex", flexDirection: "row"}}>
-          <img src={pfp} id="pfp" width="316" height="160"></img>
-            <h1 style={{flexDirection: "column"}}>Dr. Jason Rubenstein, MD, FACC, FHRS</h1>
-            <h2 style={{flexDirection: "column"}}>Cardiologist, Electrophysiologist, 
-    Associate Professor</h2>
+          <div style={{display: "flex", alignItems: 'center'}}>
+            <img src={pfp} id="pfp" width="316" height="160"></img>
+              <div style={{display: "flex", flexDirection: "column"}}>
+                <h1 style={{marginBottom: '0px'}}>Dr. Jason Rubenstein, MD, FACC, FHRS</h1>
+              </div>
           </div>
-          <p>Director, Cardiac MRI</p>
-          <p>Director, Electrophysiology Fellowship</p>
-          <p>Vice-Chair, Section of Electrophysiology</p>
+          <h3>Director, Cardiac MRI </h3>
+          <h3>  Director, Electrophysiology Fellowship </h3>
+          <h3>  Vice-Chair, Section of Electrophysiology </h3>
 
           <p>Academic Electrophysiologist focusing on patient-centric management of
             cardiac arrhythmias. Located in Milwaukee, Wisconsin. Specializing in treatment of atrial fibrillation utilizing modern
@@ -100,6 +119,9 @@ function App() {
 
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className="Body">
         <h2 id="patientCare">Patient care </h2>
         <h4 style={{display: "inline", marginRight: "10px"}}>Find a doctor site:</h4>
@@ -134,6 +156,8 @@ function App() {
           <br></br>
           <h3>Articles</h3>
           {articles && displayArticles()}
+          {!seeAll && <button onClick={all}>See all</button>}
+          {seeAll && <button onClick={all}>Collapse</button>}
           <h2 id="videos" style={{marginTop: "70px"}}>Videos</h2>
           <div class='row'>
             <div class='column'>
