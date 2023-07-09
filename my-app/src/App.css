@@ -105,7 +105,6 @@ button:hover {
 .Intro {
   margin-left: 5vw;
   margin-top: 20vh;
-  height: 100vw;
   overflow: hidden;
   width: 600px;
 }
@@ -183,4 +182,47 @@ button:hover {
   width: 120px;
   display: inline;
   margin-right: 30px;
+}
+
+#headContainer {
+  display: flex;
+  align-items: center;
+}
+
+#headText {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(RobotHeart4.jpg);
+  }
+
+  .Intro {
+    margin-top: 2rem;
+  }
+
+  .Intro p{
+    width: 90vw;
+  }
+
+  #headContainer {
+    display: block;
+  }
+
+  #headText h1{
+    white-space: normal;
+    word-break: break-word;
+    width: 95vw;
+  }
+
+  .Body{
+    width: 95vw;
+    margin-top: 10rem;
+  }
+
+  .article{
+    width: 90vw;
+  }
 }

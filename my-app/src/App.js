@@ -99,9 +99,9 @@ function App() {
       </div>
       <div className="Header">
         <div className="Intro">
-          <div style={{display: "flex", alignItems: 'center'}}>
+          <div id="headContainer">
             <img src={pfp} id="pfp" width="316" height="160"></img>
-              <div style={{display: "flex", flexDirection: "column"}}>
+              <div id="headText">
                 <h1 style={{marginBottom: '0px'}}>Dr. Jason Rubenstein, MD, FACC, FHRS</h1>
               </div>
           </div>
@@ -143,15 +143,16 @@ function App() {
           <br></br>
           <br></br>
           <h3>Statistics</h3>
-          
-          <BarChart width={730} height={250} data={graphData}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="year" />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Bar dataKey="citations" fill="#096481" />
-        </BarChart>
+          <ResponsiveContainer width="95%" height={250}>
+            <BarChart width={730} height={250} data={graphData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="year" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              <Bar dataKey="citations" fill="#096481" />
+            </BarChart>
+          </ResponsiveContainer>
           {table && displayTable()}
           <br></br>
           <h3>Articles</h3>
